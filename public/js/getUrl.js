@@ -15,6 +15,11 @@ export const getUrl = async (url) => {
     let buttons = `
         <a href="${music}" target='_blank' class='btn'>download audio</a>
     `;
+    
+     let buttons = `
+        <a href="${nowm}" target='_blank' class='btn'>download video</a>
+    `;
+    
     let video = `
         <video controls="" autoplay="" name="media">
             <source src="${nowm}" type="video/mp4"></source>
