@@ -18,7 +18,7 @@ form.addEventListener('submit', e => {
     if(domain === 'www.tiktok.com' || domain === 'vm.tiktok.com'){
         getUrl(url); // get data video
     }else{
-        content.innerHTML = '<h3 class="messageError">Error, The url is not a tiktok link!</h3>'
+        content.innerHTML = '<h3 class="messageError">Lỗi! địt mọe link lon gì thế này đéo phải link tóp tóp!</h3>'
     }
     e.target.reset();
 })
