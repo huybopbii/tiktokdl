@@ -13,7 +13,7 @@ export const getUrl = async (url) => {
     
     // agregamos la etiqueta video...
     let buttons = `
-        <a href="${nowm}" target='_blank' class='btn'>Download video</a>
+        <a href="${music}" target='_blank' class='btn'>Download âm thanh</a>
     let video = `
         <video controls="" autoplay="" name="media">
             <source src="${nowm}" type="video/mp4"></source>
